@@ -1,0 +1,267 @@
+/* HOME */
+.full_container_hero .logo{
+    display: block;
+    width: 450px;
+    height: 130px;
+    position: absolute;
+    left: calc(50% - 225px);
+    top: calc(50% - 65px);
+    text-shadow: 1px 1px 1px rgb(235, 235, 211);
+}
+.full_container_hero a{
+    width: 40px;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 20px);
+    animation: arrowDownAnimation 3s infinite;
+    background: url(../assets/arrowDown.svg) no-repeat center center;
+}
+.heroVideo{
+    width: 110vw;
+    margin-left: -2vw;
+    margin-top: -1vh;
+    opacity: .5;
+    position: relative;
+    z-index: -1;
+}
+
+/* NAVIGATIE */
+nav{
+    background: rgb(255, 208, 56);
+    height: 50px;
+}
+nav .navLogo{
+    display: block;
+    width: 184px;
+    height: 50px;
+    margin-left: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    padding: 14.5px 15px;
+    transition: .1s;
+}
+nav a:hover{
+    background: #fff;
+    color: rgb(255, 208, 56);
+}
+
+/* EXTRA */
+.team, .aanpak, .waarZittenWij{
+    margin-top: 300px;
+}
+
+/* OVER ONS */
+.overOns .col6{
+    height: 300px;
+}
+.overOns hr{
+    width: 1px;
+    height: 300px;
+    float: left;
+    margin: 0 10px;
+    border: none;
+    background: rgba(25, 15, 10, 0.8);
+}
+.overOns .imageBackground{
+    background: url(../assets/people-coffee-notes-tea.jpg) no-repeat center center;
+    margin-left: -10px;
+}
+
+/* TEAM */
+.team .col4{
+    height: 400px;
+}
+.team .col4 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 70.666px;
+    border-radius: 50%;
+    border: 1px solid rgba(25, 15, 10, 0.2);
+}
+.team p{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* AANPAK */
+.aanpak .col4 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 140.666px;
+}
+.aanpak .col4 p{
+    display: block;
+    width: 70%;
+    margin: 20px 15%;
+    text-align: justify;
+}
+
+/* WAAR ZITTEN WIJ? */
+.waarZittenWij .googleMaps{
+    height: 300px;
+    margin-left: -10px;
+}
+.waarZittenWij .googleMaps iframe{
+    width: 100%;
+    height: 100%;
+}
+.waarZittenWij hr{
+    width: 1px;
+    height: 300px;
+    float: left;
+    margin: 0 10px;
+    border: none;
+    background: rgb(25, 15, 10);
+}
+
+/* PORTFOLIO */
+.portfolio .col6{
+    height: 300px;
+    margin: 10px;
+    width: calc(50% - 20px);
+}
+.portfolio .item1{
+    background: url(../assets/bredaLive.jpg) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item2{
+    background: url(../assets/lodo2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.portfolio .item3{
+    background: url(../assets/newCrane2D.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item4{
+    background: url(../assets/youDontKnowMe2D.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item5{
+    background: url(../assets/webdadSpel.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item6{
+    background: url(../assets/Penseel_eigen%20oefening-01.png) no-repeat bottom center;
+    background-size: cover;
+}
+.portfolio .item7{
+    background: url(../assets/bredaLive.jpg) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item8{
+    background: url(../assets/lodo2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.portfolio .item9{
+    background: url(../assets/newCrane2D.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item10{
+    background: url(../assets/youDontKnowMe2D.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item11{
+    background: url(../assets/webdadSpel.png) no-repeat center center;
+    background-size: cover;
+}
+.portfolio .item12{
+    background: url(../assets/Penseel_eigen%20oefening-01.png) no-repeat bottom center;
+    background-size: cover;
+}
+/* JOBS */
+.jobs .col12{
+    margin-bottom: 40px;
+}
+.jobs .col12 p{
+    padding: 20px;
+    width: calc(100% - 40px);
+    display: block;
+}
+.jobs .col12 .col12:nth-child(odd){
+    background: #fff;
+    color: rgb(255, 208, 56);
+}
+.jobs .col12 .col12:nth-child(odd) a{
+    background: rgb(255, 208, 56);
+    border: none;
+    display: block;
+    width: 70px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.jobs .col12 .col12:nth-child(even){
+    background: rgb(255, 208, 56);
+    color: #fff;
+}
+.jobs .col12 .col12:nth-child(even) a{
+    background: #fff;
+    border: none;
+    display: block;
+    width: 70px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: rgb(255, 208, 56);
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+/* CONTACT */
+.contact .col6{
+    background: #dbdbdb;
+    border-radius: 5px;
+}
+.contact input{
+    display: block;
+    width: calc(90% - 20px);
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 25px;
+    border: none;
+    padding: 10px;
+}
+.contact textarea{
+    display: block;
+    width: calc(90% - 20px);
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 25px;
+    resize: none;
+    padding: 10px;
+    border: none;
+}
+.contact button{
+    width: 90%;
+    padding: 15px 0px;
+    margin: 25px 5%;
+    background: rgb(255, 208, 56);
+    color: white;
+    border: none;
+}
+.contact button:active{
+    background: rgb(243, 202, 112);
+}
+
+
+/* ANIMATIONS */
+@keyframes arrowDownAnimation{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}

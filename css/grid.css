@@ -1,0 +1,149 @@
+/*       _   _                     
+        | \ | |_______  _   _  ___ 
+        |  \| |_  / _ \| | | |/ _ \
+        | |\  |/ / (_) | |_| |  __/
+Made by |_| \_/___\___/ \__, |\___|
+                        |___/
+*/
+
+
+@font-face {
+    font-family: milkshake;
+    src: url(../assets/Milkshake.ttf);
+}
+@font-face {
+    font-family: segoeUI;
+    src: url(../assets/SegoeUI.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FCFAFA;
+    font-family: 'segoeUI', sans-serif;
+    color: rgba(25, 15, 10, 0.8);
+    overflow-x: hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.empty{
+    height: 100px;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+.full_width{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.full_container_hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+h1{
+    font-family: 'milkshake', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 208, 56);
+}
+h2{
+    font-family: 'milkshake', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+h3{
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+h4{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+.col1{
+    width: calc(85.333px * 1);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col2{
+    width: calc(85.333px * 2);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col3{
+    width: calc(85.333px * 3);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col4{
+    width: calc(85.333px * 4);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col5{
+    width: calc(85.333px * 5);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col6{
+    width: calc(85.333px * 6);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col7{
+    width: calc(85.333px * 7);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col8{
+    width: calc(85.333px * 8);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col9{
+    width: calc(85.333px * 9);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col10{
+    width: calc(85.333px * 10);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col11{
+    width: calc(85.333px * 11);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.col12{
+    width: calc(85.333px * 12);
+    float: left;
+    position: relative;
+    min-height: 1px;
+}

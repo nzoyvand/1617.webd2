@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FCFAFA;
+    font-family: 'segoeUI', sans-serif;
+    color: rgba(25, 15, 10, 0.8);
+}
+
+/* FONT FACE  */
+@font-face {
+    font-family: milkshake;
+    src: url(../assets/Milkshake.ttf);
+}
+@font-face {
+    font-family: segoeUI;
+    src: url(../assets/SegoeUI.ttf);
+}
+
+/*  CONTAINER  */
+.container{
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+/*  BLOK 1  */
+.blok1{
+    width: 320px;
+    height: 50px;
+    border-bottom: 2px solid #FFD038;
+    float: left;
+}
+.blok1 .logo{
+    font-family: 'milkshake', sans-serif;
+    color: #FFD038;
+    float: left;
+    display: block;
+    width: 50%;
+    font-size: 1.8em;
+    margin: 3px 0 0 0;
+}
+.blok1 nav{
+    width: 42px;
+    height: 36px;
+    background: #FFD038;
+    float: right;
+    margin: 7px 0px;
+    border-radius: 3px;
+}
+.blok1 nav .navBalk{
+    width: 36px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 4.5px 3px;
+}
+.blok1 nav .hiddenNavItems{
+    position: absolute;
+    width: 200px;
+    margin-left: -158px;
+    display: none;
+}
+.space8{
+    height: 9px;
+}
+.blok1 nav .hiddenNavItems a{
+    text-decoration: none;
+    background: #FFD038;
+    display: block;
+    width: calc(100% -);
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    transition: .1s;
+}
+.blok1 .hiddenNavItems a:hover{
+    background: #FCFAFA;
+    color: #FFD038;
+}
+.blok1 nav:hover > .hiddenNavItems{
+    display: block;
+}
+
+/*  BLOK 2  */
+.blok2{
+    width: calc(100% - 420px);
+    float: left;
+    margin-left: 100px;
+}
+
+/* BLOK 3  */
+.blok3{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    height: 300px;
+}
+.blok3 .kleurRij{
+    height: 100px;
+    margin-top: 34px;
+}
+.blok3 .kleur{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.blok3 .kleurmargin{
+    margin: 0 5%;
+}
+.blok3 .kleur .vlak{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.blok3 .kleur .vlak1{
+    background: rgb(255, 208, 56);
+}
+.blok3 .kleur .vlak2{
+    background: rgb(25, 15, 10);
+}
+.blok3 .kleur .vlak3{
+    background: rgb(252, 250, 250);
+}
+.blok3 .kleur .vlak4{
+    background: rgb(243, 202, 112);
+}
+.blok3 .kleur .vlak5{
+    background: rgb(235, 235, 211);
+}
+.blok3 .kleur .vlak6{
+    background: rgb(255, 255, 255);
+}
+.blok3 .kleur .beschrijving{
+    width: calc(100% - 120px);
+    float: left;
+    margin-top: 58px;
+}
