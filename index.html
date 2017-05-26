@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Agency.Script</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#nav").sticky({topSpacing:0});
+        });
+    </script>
+</head>
+<body>
+    <div class="full_container_hero" id="home">
+        <h1 class="logo">Agency.Script</h1>
+        <a href="#over">
+            <img src="assets/arrowDown.svg" alt="Arrow Down">
+        </a>
+        <video autoplay loop class="heroVideo">
+            <source src="assets/discussing_features.webm" type="video/webm">
+            <source src="assets/discussing_features.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <nav class="full_width" id="nav">
+        <h2 class="navLogo left">Agency.Script</h2>
+        <div class="right">
+            <a href="#home">Home</a>
+            <a href="#over">Over ons</a>
+            <a href="#team">Team</a>
+            <a href="#aanpak">Aanpak</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="#waar">Waar zitten wij?</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col12 overOns" id="over">
+            <h3>Over ons</h3>
+            
+            <div class="col12">
+                <div class="col6 imageBackground"></div>
+                <hr>
+                <div class="col5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam minus beatae eaque nam perspiciatis provident cumque asperiores, perferendis iste sint quod architecto temporibus ab libero repellendus tempore, natus placeat?</p>
+                    <br>
+                    <p>Doloribus perferendis molestiae rerum labore debitis aperiam incidunt, deserunt nihil. Unde sunt nemo, beatae ab eius, sit, corporis reprehenderit quia quaerat molestiae qui ipsa numquam est veniam quis! Eos, aliquam.</p>
+                    <br>
+                    <p>Dolorum a impedit aut dolor ex. Similique repellat accusamus quisquam vero voluptas eveniet ipsam corrupti deserunt, ducimus necessitatibus incidunt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col12 team" id="team">
+            <h3>Team</h3>
+            <div class="col12">
+                <div class="col4">
+                    <img src="assets/patrickSter.jpg" alt="Patrick Ster">
+                    <h4>Patrick Ster</h4>
+                    <p>----- <br> Ontwerpen <br> &amp; <br> Coderen</p>
+                </div>
+                <div class="col4">
+                    <img src="assets/nzoyeVandamme.jpg" alt="Nzoye Vandamme">
+                    <h4>Nzoye Vandamme</h4>
+                    <p>----- <br> Eigenaar <br> &amp; <br> Communicatie</p>
+                </div>
+                <div class="col4">
+                    <img src="assets/oonaVanWeyenberg.jpg" alt="Oöna Van Weyenberg">
+                    <h4>Oöna Van Weyenberg</h4>
+                    <p>----- <br> Fotograaf <br> &amp; <br> Beeldverwerkster</p>
+                </div>
+            </div>
+        </div>  
+        <div class="col12 aanpak" id="aanpak">
+            <h3>Aanpak</h3>
+            <div class="col12">
+                <div class="col4">
+                    <img src="assets/overleg.svg" alt="overleg icoon">
+                    <p>Wij overleggen altijd om exact te weten wat er gebeurd moet worden, een goed gesprek is de start van een mooi resultaat.</p>
+                </div>
+                <div class="col4">
+                    <img src="assets/ontwerpen.svg" alt="ontwerp icoon">
+                    <p>Na een duidelijk overleg is het tijd om te ontwerpen en voorstudies te maken waaruit u het uiteindelijke ontwerp kiest.</p>
+                </div>
+                <div class="col4">
+                    <img src="assets/uitvoering.svg" alt="uitvoering icoon">
+                    <p>Na goedkeuring van het ontwerp kan er gewerkt worden om het uiteindelijke product te realiseren binnen deadline.</p>
+                </div>
+            </div>
+        </div>  
+        <div class="col12 waarZittenWij" id="waar">
+            <h3>Waar zitten wij?</h3>
+            <div class="col12">
+                <div class="col6 googleMaps" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40097.26360704487!2d3.667203!3d51.08855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37049c2ee923b%3A0x268fc495b0688754!2sIndustrieweg+232%2C+9030+Gent%2C+Belgium!5e0!3m2!1sen!2sus!4v1495830941463" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <div class="col5">
+                    <p>Randomstraat 69 <br> 9000 Gent</p>
+                    <br>
+                    <p>0479 79 79 79</p>
+                    <br>
+                    <p>nzoye.vandamme@student.arteveldehs.be</p>
+                </div>
+            </div>
+        </div>
+        <div class="col12 empty"></div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
